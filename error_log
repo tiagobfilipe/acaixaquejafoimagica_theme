@@ -1,0 +1,4 @@
+[04-Oct-2023 06:46:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/acaixaqu/public_html/wp-content/themes/acaixaquejafoimagica/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/acaixaqu/public_html/wp-content/themes/acaixaquejafoimagica/index.php on line 1

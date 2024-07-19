@@ -1,0 +1,61 @@
+@font-face {
+    font-family: "TitilliumWeb-Regular";
+    src: url("Titillium_Web/TitilliumWeb-Regular.ttf");
+}
+
+@font-face {
+    font-family: "TitilliumWeb-Light";
+    src: url("Titillium_Web/TitilliumWeb-Light.ttf");
+}
+
+@font-face {
+    font-family: "TitilliumWeb-Bold";
+    src: url("Titillium_Web/TitilliumWeb-Bold.ttf");
+}
+
+::selection {background-color: var(--maincolor);color: white;}
+
+h2 {font-family: "TitilliumWeb-Bold";}
+a {color: var(--maincolor);}
+
+@media screen and (max-width: 782px){
+html #wpadminbar {position: fixed;}
+}
+
+.offcanvas {background-color: #ffffffed !important;}
+
+.last-posts-title hr:not([size]) {width: 50px;height: 5px;margin: auto;margin-top: 10px;background-color: var(--maincolor);}
+
+.custom-logo-link img {height: auto;width: 220px;}
+
+header {background-color: #ffffffed;width: 100%;position: fixed;z-index: 999;box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13); backdrop-filter: blur(10px);}
+.content {padding-top: 130px;}
+
+.menu-button {font-size: 20pt;margin-right: 15px;color: var(--maincolor);}
+
+.main-menu,.secondary-menu {list-style: none;padding: 0px;font-family: "TitilliumWeb-Bold";font-size: 22pt;}
+.main-menu>li>a,.secondary-menu>li>a {text-decoration: none;color: black;}
+.main-menu>li.current-menu-item>a,.secondary-menu>li.current-menu-item>a:hover {color: var(--maincolor);}
+.main-menu>li>a:hover,.secondary-menu>li>a:hover {color: var(--maincolor);}
+
+.card {font-family: "TitilliumWeb-Regular";border: none;background-color: transparent;border-radius: 0px;}
+
+h1.card-title {font-family: "TitilliumWeb-Bold";color: var(--maincolor);}
+
+.card h5.card-title a {text-decoration: none;font-family: "TitilliumWeb-Bold";}
+.card div.card-text {text-align: justify;}
+.card .post-categories {list-style: none;display: flex;padding: 0px;}
+.card .post-categories li {margin-right: 10px;}
+.card .post-categories li a {text-decoration: none;color: rgb(0, 0, 0);font-weight: bold;}
+.wp-block-image img {height: auto !important;}
+
+footer {font-family: "TitilliumWeb-Regular";}
+.footer-menu{list-style: none;padding: 0px; padding-top: 15px;font-family: "TitilliumWeb-Bold";font-size: 15pt;}
+.footer-menu>li>a{text-decoration: none;color: black;}
+.footer-menu>li.current-menu-item>a{color: var(--maincolor);}
+.footer-menu>li>a:hover {color: var(--maincolor);}
+footer .social-icons a {color: black;font-size: 18pt;}
+
+#toTop2 {background-color: var(--maincolor);position: fixed;bottom: 25px;right: 25px;display: none;}
+
+.share-links a {font-size: 28pt;margin-right: 5px;}
